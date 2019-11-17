@@ -6,8 +6,8 @@ public class RecipeController {
     private RecipeView recipeView;
 
     public RecipeController(RecipeModel recipeModel, RecipeView recipeView) {
-            this.recipeModel = recipeModel;
-            this.recipeView = recipeView;
+        this.recipeModel = recipeModel;
+        this.recipeView = recipeView;
     }
 
     public void setRecipeName(String recipeName) {
