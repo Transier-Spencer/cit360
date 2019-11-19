@@ -10,6 +10,10 @@ public class RecipeController {
         this.recipeView = recipeView;
     }
 
+    public RecipeController(String recipeName, String recipeCategory, String recipeAuthor, Integer recipeIngredientCount) {
+        RecipeModel recipe = new RecipeModel(recipeName, recipeCategory, recipeAuthor, recipeIngredientCount);
+    }
+
     public void setRecipeName(String recipeName) {
         recipeModel.setName(recipeName);
     }
@@ -24,5 +28,21 @@ public class RecipeController {
 
     public String getRecipeCategory() {
         return recipeModel.getCategory();
+    }
+
+    public void setRecipeAuthor(String recipeAuthor) {
+        recipeModel.setAuthor(recipeAuthor);
+    }
+
+    public String getRecipeAuthor() {
+        return recipeModel.getAuthor();
+    }
+
+    public void setRecipeIngredientCount(Integer recipeIngredientCount) {
+        recipeModel.setIngredientCount(recipeIngredientCount);
+    }
+
+    public Integer getRecipeIngredientCount() {
+        return recipeModel.getIngredientCount();
     }
 }

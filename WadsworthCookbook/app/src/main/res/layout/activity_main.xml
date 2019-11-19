@@ -23,4 +23,31 @@
         android:textSize="20sp"
         tools:layout_editor_absoluteX="174dp"
         tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/recipeAuthorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recipeCategoryTextView"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/recipeIngredientCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recipeAuthorTextView"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/JSONResultsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recipeIngredientCountTextView"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="302dp" />
 </RelativeLayout>
