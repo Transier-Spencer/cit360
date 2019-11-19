@@ -59,7 +59,7 @@ public class RecipeView extends AppCompatActivity {
         textViewIngredientCount = findViewById(R.id.recipeIngredientCountTextView);
         textViewIngredientCount.setText("Ingredient Count: " + controller.getRecipeIngredientCount());
 
-        // JSON
+        // JSON & HTTPUrlConnection
 
         // Create new recipe object
         RecipeModel recipe = new RecipeModel(
