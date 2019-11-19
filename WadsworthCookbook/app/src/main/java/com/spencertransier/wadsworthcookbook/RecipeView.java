@@ -2,30 +2,16 @@ package com.spencertransier.wadsworthcookbook;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TextView;
 import com.google.gson.Gson;
-import com.google.gson.stream.JsonReader;
-
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.Reader;
-import java.util.List;
-
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import javax.xml.transform.Result;
-
 public class RecipeView extends AppCompatActivity {
-
-    private static final String TAG = "MainActivity";
-
 
     public TextView textViewName;
     public TextView textViewCategory;
@@ -98,7 +84,6 @@ public class RecipeView extends AppCompatActivity {
 
             while ((jsonLine = jsonReader.readLine()) != null) {
                 jsonResponse.append(jsonLine);
-                Log.d(TAG, "HELLO: "+jsonLine);
             }
 
             // Close reader
