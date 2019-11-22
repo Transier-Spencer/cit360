@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f61b6030-f813-4a9a-9b13-e3e0c4364fe6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FRjUnit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MathCalculations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MathCalculationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WadsworthCookbook/app/src/main/java/com/spencertransier/wadsworthcookbook/RecipeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WadsworthCookbook/app/src/main/java/com/spencertransier/wadsworthcookbook/RecipeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlets/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlets/.idea/artifacts/Servlets_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlets/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlets/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlets/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlets/Servlets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlets/src/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlets/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServletsFR/ServletsFR.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServletsFR/src/example/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServletsFR/src/struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ServletsFR/web/WEB-INF/sun-jaxws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +92,11 @@
       <option name="presentableId" value="Default" />
       <updated>1573948504672</updated>
       <workItem from="1573948523405" duration="2403000" />
+      <workItem from="1574010540727" duration="49000" />
+      <workItem from="1574311059620" duration="35000" />
+      <workItem from="1574314751137" duration="211000" />
+      <workItem from="1574314979301" duration="598000" />
+      <workItem from="1574317373038" duration="473000" />
     </task>
     <servers />
   </component>
@@ -98,7 +108,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
